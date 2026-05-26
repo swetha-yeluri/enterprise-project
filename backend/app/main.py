@@ -15,6 +15,7 @@ def create_app() -> FastAPI:
         description=settings.APP_DESCRIPTION,
         docs_url="/docs",
         redoc_url="/redoc",
+        
     )
 
     # ------------------------------------------------------------------ #
